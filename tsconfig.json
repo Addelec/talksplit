@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "checkJs": true,
+    "allowJs": true,
+    "strict": true,
+    "paths": {
+      "@lib/*": ["./lib/*"],
+      "@/types/*": ["./types/*"]
+    }
+  },
+  "exclude": ["node_modules", "**/node_modules/*", ".generated", "generated", "dist"],
+  "files": ["node_modules/@zeppos/device-types/dist/index.d.ts"]
+}

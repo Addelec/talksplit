@@ -1,0 +1,138 @@
+
+msgid "watch.since-start"
+msgstr "seit Start"
+
+msgid "watch.remaining"
+msgstr "verbleibend"
+
+msgid "watch.finished"
+msgstr "Beendet"
+
+msgid "watch.chapter-remaining"
+msgstr "VERBLEIBENDE KAPITELZEIT"
+
+msgid "watch.behind"
+msgstr "hinter Plan"
+
+msgid "watch.ahead"
+msgstr "vor Plan"
+
+msgid "watch.on-time"
+msgstr "im Zeitplan"
+
+msgid "watch.start-button"
+msgstr "Start"
+
+msgid "watch.next-button"
+msgstr "Weiter"
+
+msgid "watch.finish-button"
+msgstr "Abschließen"
+
+msgid "watch.reset-button"
+msgstr "Zurücksetzen"
+
+msgid "sync.invalid-plan"
+msgstr "Der gespeicherte Plan oder das Zeitfenster ist ungültig."
+
+msgid "sync.slot-too-short"
+msgstr "Die Kapitel überschreiten das verfügbare Zeitfenster."
+
+msgid "sync.no-saved-plan"
+msgstr "Speichere zuerst einen Plan in der Zepp-App."
+
+msgid "sync.received-by-watch"
+msgstr "Der gespeicherte Plan wurde auf der Uhr empfangen."
+
+msgid "watch.load-plan"
+msgstr "Plan laden"
+
+msgid "watch.loading-plan"
+msgstr "Lädt..."
+
+msgid "watch.plan-loaded"
+msgstr "Plan geladen"
+
+msgid "watch.sync-failed"
+msgstr "Plan nicht geladen. Öffne Zepp und prüfe Bluetooth."
+
+msgid "watch.acknowledgment-failed"
+msgstr "Plan geladen. Die Bestätigung auf dem Smartphone ist fehlgeschlagen."
+
+msgid "watch.alarm-failed"
+msgstr "Kapitelvibration nicht eingerichtet. Prüfe die Berechtigungen."
+
+msgid "watch.save-failed"
+msgstr "Der Vortrag konnte nicht gespeichert werden."
+
+msgid "configuration.invalid-format"
+msgstr "Die gespeicherte Konfiguration hat ein ungültiges Format."
+
+msgid "configuration.unsupported-version"
+msgstr "Diese Konfiguration benötigt Formatversion {version}. Speichere den Plan erneut."
+
+msgid "configuration.missing-revision"
+msgstr "Die Revision der gespeicherten Konfiguration fehlt. Speichere den Plan erneut."
+
+msgid "configuration.invalid-slot"
+msgstr "Gib eine positive, ganze Dauer für das Zeitfenster ein."
+
+msgid "configuration.invalid-slot-detail"
+msgstr "Ungültiges Zeitfenster: {message}"
+
+msgid "configuration.invalid-plan"
+msgstr "Ungültiger Plan: {message}"
+
+msgid "configuration.slot-too-short"
+msgstr "Der Plan benötigt {plannedSeconds} Sekunden, das Zeitfenster bietet nur {slotSeconds} Sekunden."
+
+msgid "plan.empty"
+msgstr "Füge mindestens ein Kapitel hinzu."
+
+msgid "plan.line"
+msgstr "Zeile {line}: {message}"
+
+msgid "plan.invalid-format"
+msgstr "Gib eine Dauer gefolgt von einem Kapiteltitel ein."
+
+msgid "plan.missing-title"
+msgstr "Füge einen Kapiteltitel hinzu."
+
+msgid "plan.title-too-long"
+msgstr "Der Titel darf höchstens {maxLength} Zeichen enthalten (aktuell {actualLength})."
+
+msgid "plan.invalid-duration"
+msgstr "Gib eine Dauer in Minuten, mm:ss oder hh:mm:ss ein."
+
+msgid "plan.invalid-duration-detail"
+msgstr "Ungültige Dauer: {message}"
+
+msgid "duration.not-safe-integer"
+msgstr "Die Dauer muss eine ganze Anzahl von Sekunden im unterstützten Bereich sein."
+
+msgid "duration.not-positive"
+msgstr "Die Dauer muss größer als null sein."
+
+msgid "watch.starting"
+msgstr "Startet..."
+
+msgid "watch.using-saved-plan"
+msgstr "Smartphone nicht erreichbar. Der gespeicherte Plan wird gestartet."
+
+msgid "watch.no-plan"
+msgstr "Kein Plan gespeichert. Speichere einen Plan in Zepp, verbinde dein Smartphone und tippe auf Synchronisieren."
+
+msgid "sync.saved-init-sync-from-watch"
+msgstr "Auf dem Smartphone gespeichert. Tippe auf der Uhr auf Synchronisieren, um den Plan zu laden, und dann auf Start."
+
+msgid "watch.sync-button"
+msgstr "Synchronisieren"
+
+msgid "watch.syncing"
+msgstr "Lädt..."
+
+msgid "watch.no-saved-plan"
+msgstr "Kein Plan gespeichert"
+
+msgid "watch.sync-time-unknown"
+msgstr "Noch nie"

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "rootDir": "lib",
+    "outDir": "generated/lib",
+    "noEmitOnError": true
+  },
+  "include": ["lib/**/*.ts"]
+}

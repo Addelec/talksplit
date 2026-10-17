@@ -1,0 +1,139 @@
+msgid "settings.instructions"
+msgstr "Update your talk configuration"
+msgid "watch.since-start"
+msgstr "since start"
+
+msgid "watch.remaining"
+msgstr "remaining"
+
+msgid "watch.finished"
+msgstr "Finished"
+
+msgid "watch.chapter-remaining"
+msgstr "CHAPTER REMAINING"
+
+msgid "watch.behind"
+msgstr "behind"
+
+msgid "watch.ahead"
+msgstr "ahead"
+
+msgid "watch.on-time"
+msgstr "on time"
+
+msgid "watch.start-button"
+msgstr "Start"
+
+msgid "watch.next-button"
+msgstr "Next chapter"
+
+msgid "watch.finish-button"
+msgstr "Finish"
+
+msgid "watch.reset-button"
+msgstr "Reset"
+
+msgid "sync.invalid-plan"
+msgstr "The saved plan or time slot is invalid."
+
+msgid "sync.slot-too-short"
+msgstr "The chapters exceed the available time slot."
+
+msgid "sync.no-saved-plan"
+msgstr "Save a plan in the Zepp app first."
+
+msgid "sync.received-by-watch"
+msgstr "The saved plan has been received by your watch."
+
+msgid "watch.load-plan"
+msgstr "Load plan"
+
+msgid "watch.loading-plan"
+msgstr "Loading..."
+
+msgid "watch.plan-loaded"
+msgstr "Plan loaded"
+
+msgid "watch.sync-failed"
+msgstr "Could not load the plan. Open Zepp and check Bluetooth."
+
+msgid "watch.acknowledgment-failed"
+msgstr "Plan loaded. Phone confirmation could not be updated."
+
+msgid "watch.alarm-failed"
+msgstr "Chapter vibration could not be scheduled. Check permissions."
+
+msgid "watch.save-failed"
+msgstr "The session could not be saved."
+
+msgid "configuration.invalid-format"
+msgstr "The saved configuration has an invalid format."
+
+msgid "configuration.unsupported-version"
+msgstr "This configuration requires format version {version}. Save the plan again."
+
+msgid "configuration.missing-revision"
+msgstr "The saved configuration is missing its revision. Save the plan again."
+
+msgid "configuration.invalid-slot"
+msgstr "Enter a positive whole duration for the time slot."
+
+msgid "configuration.invalid-slot-detail"
+msgstr "Invalid time slot: {message}"
+
+msgid "configuration.invalid-plan"
+msgstr "Invalid plan: {message}"
+
+msgid "configuration.slot-too-short"
+msgstr "The plan needs {plannedSeconds} seconds, but the slot allows only {slotSeconds} seconds."
+
+msgid "plan.empty"
+msgstr "Add at least one chapter."
+
+msgid "plan.line"
+msgstr "Line {line}: {message}"
+
+msgid "plan.invalid-format"
+msgstr "Enter a duration followed by a chapter title."
+
+msgid "plan.missing-title"
+msgstr "Add a chapter title."
+
+msgid "plan.title-too-long"
+msgstr "Title must be at most {maxLength} characters (currently {actualLength})."
+
+msgid "plan.invalid-duration"
+msgstr "Enter a duration in minutes, mm:ss, or hh:mm:ss."
+
+msgid "plan.invalid-duration-detail"
+msgstr "Invalid duration: {message}"
+
+msgid "duration.not-safe-integer"
+msgstr "Duration must be a whole number of seconds within the supported range."
+
+msgid "duration.not-positive"
+msgstr "Duration must be greater than zero."
+
+msgid "watch.starting"
+msgstr "Starting..."
+
+msgid "watch.using-saved-plan"
+msgstr "Phone unavailable. Starting with the saved plan."
+
+msgid "watch.no-plan"
+msgstr "No saved plan. Save one in Zepp, connect your phone, then tap Sync."
+
+msgid "sync.saved-init-sync-from-watch"
+msgstr "Saved on your phone. Tap Sync on your watch to load the plan, then Start to begin."
+
+msgid "watch.sync-button"
+msgstr "Sync"
+
+msgid "watch.syncing"
+msgstr "Syncing..."
+
+msgid "watch.no-saved-plan"
+msgstr "No saved plan"
+
+msgid "watch.sync-time-unknown"
+msgstr "Never synced"

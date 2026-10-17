@@ -1,0 +1,98 @@
+msgid "settings.instructions"
+msgstr "Update your talk configuration"
+
+msgid "plan.title.default"
+msgstr "Title"
+
+msgid "plan.content.default"
+msgstr "10 Introduction\n20 Topic A\n15 Questions"
+
+msgid "plan.empty"
+msgstr "Add at least one chapter."
+
+msgid "plan.line"
+msgstr "Line {line}: {message}"
+
+msgid "plan.invalid-format"
+msgstr "Enter a duration followed by a chapter title."
+
+msgid "plan.missing-title"
+msgstr "Add a chapter title."
+
+msgid "plan.title-too-long"
+msgstr "Title must be at most {maxLength} characters (currently {actualLength})."
+
+msgid "plan.invalid-duration"
+msgstr "Enter a duration in minutes, mm:ss, or hh:mm:ss."
+
+msgid "plan.invalid-duration-detail"
+msgstr "Invalid duration: {message}"
+
+msgid "duration.not-safe-integer"
+msgstr "Duration must be a whole number of seconds within the supported range."
+
+msgid "duration.not-positive"
+msgstr "Duration must be greater than zero."
+
+msgid "plan.time-slot.label"
+msgstr "Time slot"
+
+msgid "plan.time-slot.placeholder"
+msgstr "e.g. 90"
+
+msgid "plan.time-slot.hint"
+msgstr "Total time available for your talk, in minutes."
+
+msgid "plan.content.label"
+msgstr "Chapters"
+
+msgid "plan.content.placeholder"
+msgstr "10 Introduction\n20 Main topic\n5 Questions"
+
+msgid "plan.content.hint"
+msgstr "One chapter per line: duration, then title. Use minutes, mm:ss or hh:mm:ss."
+
+msgid "plan.summary"
+msgstr "{chapters} chapters · {minutes} minutes planned"
+
+msgid "plan.save.label"
+msgstr "Save plan for watch"
+
+msgid "plan.sync.pending"
+msgstr "No plan has been transferred to the watch yet."
+
+msgid "sync.saved-init-sync-from-watch"
+msgstr "Saved on your phone. Tap Sync on your watch to load the plan, then Start to begin."
+
+msgid "sync.invalid-plan"
+msgstr "The saved plan or time slot is invalid."
+
+msgid "sync.slot-too-short"
+msgstr "The chapters exceed the available time slot."
+
+msgid "sync.no-saved-plan"
+msgstr "Save a plan in the Zepp app first."
+
+msgid "sync.received-by-watch"
+msgstr "The saved plan has been received by your watch."
+
+msgid "configuration.invalid-format"
+msgstr "The saved configuration has an invalid format."
+
+msgid "configuration.unsupported-version"
+msgstr "This configuration requires format version {version}. Save the plan again."
+
+msgid "configuration.missing-revision"
+msgstr "The saved configuration is missing its revision. Save the plan again."
+
+msgid "configuration.invalid-slot"
+msgstr "Enter a positive whole duration for the time slot."
+
+msgid "configuration.invalid-slot-detail"
+msgstr "Invalid time slot: {message}"
+
+msgid "configuration.invalid-plan"
+msgstr "Invalid plan: {message}"
+
+msgid "configuration.slot-too-short"
+msgstr "The plan needs {plannedSeconds} seconds, but the slot allows only {slotSeconds} seconds."

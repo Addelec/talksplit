@@ -1,0 +1,98 @@
+msgid "settings.instructions"
+msgstr "Passe deine Vortragsplanung an"
+
+msgid "plan.title.default"
+msgstr "Titel"
+
+msgid "plan.content.default"
+msgstr "10 Einführung\n20 Thema A\n15 Fragen"
+
+msgid "plan.empty"
+msgstr "Füge mindestens ein Kapitel hinzu."
+
+msgid "plan.line"
+msgstr "Zeile {line}: {message}"
+
+msgid "plan.invalid-format"
+msgstr "Gib eine Dauer gefolgt von einem Kapiteltitel ein."
+
+msgid "plan.missing-title"
+msgstr "Füge einen Kapiteltitel hinzu."
+
+msgid "plan.title-too-long"
+msgstr "Der Titel darf höchstens {maxLength} Zeichen enthalten (aktuell {actualLength})."
+
+msgid "plan.invalid-duration"
+msgstr "Gib eine Dauer in Minuten, mm:ss oder hh:mm:ss ein."
+
+msgid "plan.invalid-duration-detail"
+msgstr "Ungültige Dauer: {message}"
+
+msgid "duration.not-safe-integer"
+msgstr "Die Dauer muss eine ganze Anzahl von Sekunden im unterstützten Bereich sein."
+
+msgid "duration.not-positive"
+msgstr "Die Dauer muss größer als null sein."
+
+msgid "plan.time-slot.label"
+msgstr "Zeitfenster"
+
+msgid "plan.time-slot.placeholder"
+msgstr "z. B. 90"
+
+msgid "plan.time-slot.hint"
+msgstr "Gesamte Zeit für deinen Vortrag in Minuten."
+
+msgid "plan.content.label"
+msgstr "Kapitel"
+
+msgid "plan.content.placeholder"
+msgstr "10 Einführung\n20 Hauptthema\n5 Fragen"
+
+msgid "plan.content.hint"
+msgstr "Ein Kapitel pro Zeile: Dauer, dann Titel. Nutze Minuten, mm:ss oder hh:mm:ss."
+
+msgid "plan.summary"
+msgstr "{chapters} Kapitel · {minutes} Minuten geplant"
+
+msgid "plan.save.label"
+msgstr "Plan für die Uhr speichern"
+
+msgid "plan.sync.pending"
+msgstr "Es wurde noch kein Plan auf die Uhr übertragen."
+
+msgid "sync.saved-init-sync-from-watch"
+msgstr "Auf dem Smartphone gespeichert. Tippe auf der Uhr auf Synchronisieren, um den Plan zu laden, und dann auf Start."
+
+msgid "sync.invalid-plan"
+msgstr "Der gespeicherte Plan oder das Zeitfenster ist ungültig."
+
+msgid "sync.slot-too-short"
+msgstr "Die Kapitel überschreiten das verfügbare Zeitfenster."
+
+msgid "sync.no-saved-plan"
+msgstr "Speichere zuerst einen Plan in der Zepp-App."
+
+msgid "sync.received-by-watch"
+msgstr "Der gespeicherte Plan wurde auf der Uhr empfangen."
+
+msgid "configuration.invalid-format"
+msgstr "Die gespeicherte Konfiguration hat ein ungültiges Format."
+
+msgid "configuration.unsupported-version"
+msgstr "Diese Konfiguration benötigt Formatversion {version}. Speichere den Plan erneut."
+
+msgid "configuration.missing-revision"
+msgstr "Die Revision der gespeicherten Konfiguration fehlt. Speichere den Plan erneut."
+
+msgid "configuration.invalid-slot"
+msgstr "Gib eine positive, ganze Dauer für das Zeitfenster ein."
+
+msgid "configuration.invalid-slot-detail"
+msgstr "Ungültiges Zeitfenster: {message}"
+
+msgid "configuration.invalid-plan"
+msgstr "Ungültiger Plan: {message}"
+
+msgid "configuration.slot-too-short"
+msgstr "Der Plan benötigt {plannedSeconds} Sekunden, das Zeitfenster bietet nur {slotSeconds} Sekunden."
