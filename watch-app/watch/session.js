@@ -5,7 +5,7 @@ import {
   writeWatchValue,
   WATCH_STORAGE,
   SESSION_VERSION,
-} from "./storage";
+} from "./storage.js";
 
 /**
  * Restore a session from watch storage after reopening the app.

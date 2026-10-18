@@ -6,7 +6,7 @@
     "allowJs": true,
     "strict": true,
     "paths": {
-      "@lib/*": ["./lib/*"],
+      "@lib/*": ["../lib/*"],
       "@/types/*": ["./types/*"]
     }
   },

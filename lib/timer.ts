@@ -107,7 +107,7 @@ export class TalkTimer {
     timer.startedAt = state.startedAt;
     timer.endedAt = state.endedAt;
     timer.splits = [...state.splits];
-    for (const split of state.splits) timer.cursor.next();
+    for (let index = 0; index < state.splits.length; index++) timer.cursor.next();
     return success(timer);
   }
 

@@ -1,0 +1,39 @@
+:root {
+  --text: #66685d;
+  --text-h: #22251e;
+  --bg: #fafbf7;
+  --border: #dce0d4;
+  --accent: #d6ec82;
+  --brand-heading: #526523;
+  --input-bg: #fff;
+  --watch-rim: #30332b;
+  --focus: #748c38;
+  --error: #b22c36;
+  --sans: 'Avenir Next', 'Segoe UI', sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+  font: 18px/1.6 var(--sans);
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+#root { width: min(100%, 1200px); margin: 0 auto; min-height: 100svh; }
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #a7ac9d;
+    --text-h: #f1f3ea;
+    --bg: #161812;
+    --border: #393e30;
+    --brand-heading: #d6ec82;
+    --input-bg: #1e2119;
+    --watch-rim: #3b4033;
+    --focus: #d6ec82;
+    --error: #ff939b;
+    color-scheme: dark;
+  }
+}
+@media (max-width: 1024px) { :root { font-size: 16px; } }
