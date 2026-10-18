@@ -9,7 +9,7 @@
   --watch-rim: #30332b;
   --focus: #748c38;
   --error: #b22c36;
-  --sans: 'Avenir Next', 'Segoe UI', sans-serif;
+  --sans: Arial, Helvetica, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
   font: 18px/1.6 var(--sans);
   color: var(--text);
