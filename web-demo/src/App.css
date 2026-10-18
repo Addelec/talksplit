@@ -295,3 +295,28 @@ button:focus-visible {
   color: #202714;
   font-weight: 650;
 }
+
+.github-pill {
+  position: fixed;
+  bottom: max(24px, env(safe-area-inset-bottom));
+  left: max(24px, env(safe-area-inset-left));
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: var(--input-bg);
+  color: var(--text-h);
+  box-shadow: 0 4px 12px rgb(0 0 0 / 12%);
+  transition: background 150ms ease, box-shadow 150ms ease;
+}
+.github-pill:hover {
+  background: var(--bg);
+  box-shadow: 0 6px 18px rgb(0 0 0 / 18%);
+}
+.github-pill:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
